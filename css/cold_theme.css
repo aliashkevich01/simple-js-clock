@@ -1,0 +1,92 @@
+ .cold-theme{
+    background-image: url("https://oir.mobi/uploads/posts/2019-12/1576651171_1-1.jpg") ;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    flex: 1;
+    font-size: 32px;
+    justify-content: space-between;
+}
+.info{
+    margin: auto;
+    color:#FFFFFF;
+    line-height: 50px;
+}
+.clocks{
+    width: 200px;
+    height: 200px;
+    border:18px solid #999999;
+    border-radius: 50%;
+    margin:400px auto;
+    position: relative;
+    box-shadow: 
+    0 0 0px 4px rgba(0,0,0,0.1);
+    inset: 0 0 0 3px #efefef1e;
+    inset: 0 0 10px #000000,
+    0 0 10px rgba(0,0,0,0.2);
+}
+.clocks-circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+.hand{
+    width: 50%;
+    height: 6px;
+    background: #808080;
+    border-radius: 10px;
+    top:50%;
+    position: absolute;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+}
+.second-hand{
+    transition-timing-function: cubic-bezier(0.42, 0, 0, 1.36);
+}
+.hour-hand{
+    top:50%;
+    width: 25%;
+    left:25%;
+}
+.minute-hand{
+    top:50%;
+    width: 35%;
+    left:15%;
+}
+.button-theme{
+    border-radius:30px;
+    border:none;
+    width: 320px;
+}
+.button-theme:hover{
+    cursor: pointer;
+    background-color:#AFEEEE;
+}
+.dragon-theme{
+    background-image: url(https://kartinkin.com/uploads/posts/2021-07/1626975036_32-kartinkin-com-p-krasnii-poligonalnii-fon-krasivo-33.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    flex: 1;
+    font-size: 32px;
+    justify-content: space-between;
+}
+.dragon-theme .button-theme:hover{
+    cursor: pointer;
+    background-color:#FFDDFF;
+}
+.dragon-theme .clocks{
+    border:18px solid #FFFFFF;
+}
+.dragon-theme .hand{
+    background:#FFD700;
+}
+
+
+
